@@ -9,10 +9,7 @@ jobs:
   deploy:
     runs-on:
       - self-hosted
-      - Linux
-      - X64
       - org-level
-
 
     steps:
       - name: Checkout code
