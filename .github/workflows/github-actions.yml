@@ -7,7 +7,12 @@ on:
 
 jobs:
   deploy:
-    runs-on: ["self-hosted", "linux","x64","org-level"]
+    runs-on:
+      - self-hosted
+      - Linux
+      - X64
+      - org-level
+      - group: default
 
     steps:
       - name: Checkout code
