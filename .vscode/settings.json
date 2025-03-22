@@ -47,6 +47,7 @@
     "globals",
     "ibge",
     "iterrows",
+    "linux",
     "localtime",
     "mundv",
     "pylint",
