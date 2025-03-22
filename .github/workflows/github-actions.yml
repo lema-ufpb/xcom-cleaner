@@ -12,7 +12,7 @@ jobs:
       - Linux
       - X64
       - org-level
-      - group: default
+
 
     steps:
       - name: Checkout code
