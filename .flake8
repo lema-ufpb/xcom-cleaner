@@ -1,0 +1,5 @@
+[flake8]
+extend-ignore = W605
+exclude = .git,__pycache__,img,.vscode,venv,.gitignore,.env
+max-complexity = 10
+max-line-length = 85

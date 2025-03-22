@@ -1,0 +1,19 @@
+[MASTER]
+extension-pkg-whitelist=pydantic
+[LOGGING]
+logging-format-style=new
+[SIMILARITIES]
+min-similarity-lines=8
+ignore-comments=yes
+ignore-docstrings=yes
+ignore-imports=no
+[MESSAGES CONTROL]
+enable=all
+disable=import-error,import-outside-toplevel,no-name-in-module,logging-fstring-interpolation,too-few-public-methods,too-many-instance-attributes,pointless-statement
+max-args=20
+max-branches=70
+max-locals=30
+max-statements=80
+max-module-lines=2000
+max-nested-blocks=10
+max-returns=10
